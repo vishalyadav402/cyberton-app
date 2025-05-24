@@ -1,24 +1,25 @@
 import ClientLayout from "./Clientlayout";
 import "./globals.css";
 
-export const metadata = {
-  title: "Cyberton",
-  description: "Cyberton -  A Software product supplier company",
-};
+// export const metadata = {
+//   title: "Cyberton",
+//   description: "Cyberton -  A Software product supplier company",
+// };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-    <link rel="canonical" href="https://https://Cyberton.com/" />
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Cyberton - A Software Product & Service Supplier Company</title>
 
+    <link rel="canonical" href="https://Cyberton.com/" />
     <meta name="title" content="Cyberton - A Software Product & Service Supplier Company"/>
-    <meta name="description" content="Cyberton - A Software Supplier Company is having very good trustability in market.."/>
-    <meta name="robots" content="index, follow"/>
+    <meta name="description" content="A Software Supplier Company is having very good trustability in market.."/>
+    <meta name="keywords" content="Cyberton, Cyberton.co.in, Ciberton, Cybertron, Cyber ton, Cyber-ton, Cyberton.in, Cyberton.co.in, Cyberton.com"/>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="language" content="English"/>
     <meta name="author" content="Cyberton"/>
@@ -29,14 +30,15 @@ export default function RootLayout({ children }) {
     <meta property="og:description" content="Cyberton - A Software Supplier Company is having very good trustability in market.."/>
     <meta property="og:type" content=""/>
     <meta property="og:image" content="https://cyberton.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png"/>
+    {/* twitter */}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@cyberton" />
     <meta name="twitter:creator" content="@cyberton" />
-
+{/* favicons */}
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-    <link rel="manifest" href="/site.webmanifest"/>
+    {/* <link rel="manifest" href="/site.webmanifest"/> */}
     <meta name="msapplication-TileColor" content="#da532c"/>
     <meta name="theme-color" content="#ffffff"/>
     <link href="./output.css" rel="stylesheet"/>
