@@ -535,9 +535,6 @@ video {
     max-width: 1536px;
   }
 }
-.collapse {
-  visibility: collapse;
-}
 .fixed {
   position: fixed;
 }
@@ -928,10 +925,6 @@ video {
 }
 .tracking-tight {
   letter-spacing: -0.025em;
-}
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 .text-blue-400 {
   --tw-text-opacity: 1;

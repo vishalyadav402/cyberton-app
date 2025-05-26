@@ -1,11 +1,6 @@
 import ClientLayout from "./Clientlayout";
 import "./globals.css";
 
-// export const metadata = {
-//   title: "Cyberton",
-//   description: "Cyberton -  A Software product supplier company",
-// };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -26,10 +21,10 @@ export default function RootLayout({ children }) {
 
     <meta property="og:title" content="Cyberton - A Software Service Supplier Company"/>
     <meta property="og:site_name" content="Cyberton"/>
-    <meta property="og:url" content="https://https:/Cyberton.com/"/>
+    <meta property="og:url" content="https://Cyberton.com/"/>
     <meta property="og:description" content="Cyberton - A Software Supplier Company is having very good trustability in market.."/>
     <meta property="og:type" content=""/>
-    <meta property="og:image" content="https://cyberton.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png"/>
+    <meta property="og:image" content="https://cyberton.co.in/images/cyberton_icon.png"/>
     {/* twitter */}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@cyberton" />
@@ -38,11 +33,10 @@ export default function RootLayout({ children }) {
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-    {/* <link rel="manifest" href="/site.webmanifest"/> */}
+    <link rel="manifest" href="/manifest.json"/>
     <meta name="msapplication-TileColor" content="#da532c"/>
     <meta name="theme-color" content="#ffffff"/>
     <link href="./output.css" rel="stylesheet"/>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
       </head>
       <body>
         <ClientLayout children={children}></ClientLayout>
